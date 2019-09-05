@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Денис Шитов](https://up.htmlacademy.ru/htmlcss/26/user/1164801).
-* Наставник: [Андрей Пудов](https://up.htmlacademy.ru/htmlcss/26/user/216332).
+* Наставник: [Андрей ^^ Пудов](https://up.htmlacademy.ru/htmlcss/26/user/216332).
 
 ---
 
