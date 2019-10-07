@@ -1,60 +1,206 @@
 body{
 	color: #000000;
-	font-family: "PT sans narrow", gilroy, open sans, sans-serif;
+
 }
 a{
 	text-decoration: none;
 	color: #000000;
-
 }
-
+ul{
+	list-style: none;
+}
+@font-face{
+	font-family: Gilroy-extrabold ;
+	src: url(fonts/gilroy/Gilroyextrabold.ttf);
+}
+@font-face{
+	font-family: Gilroy-light;
+	src: url(fonts/gilroy/Gilroylight.ttf);
+}
+@font-face{
+	font-family: OpenSans-Light;
+	src: url(fonts/open_sans/OpenSans-Light.ttf);
+}
+@font-face{
+	font-family: OpenSans-Regular;
+	src: url(fonts/open_sans/OpenSans-Regular.ttf);
+}
 .site-navigation a:hover,
 .site-navigation-1 a:hover{
-	opacity: 0.6;
+opacity: 0.6;
 }
-
 .site-navigation a:active,
 .site-navigation-1 a:active{
 	opacity: 0.3;
 }
-li,
-.user:before{
-	content: ;
+.search{
+	border: none;
+	opacity: 0.3;
 }
-.breadcrumbs{
-	list-style: none;
+.search:hover{
+	border: none;
+	opacity: 0.6;
 }
-ul,
-.filter{
-	list-style: none;
+.search:focus{
+	border: none;
+	opacity: 1;	 
+}
+.search:active{
+	border: none;
+	opacity: 1;
+}
+.categories{
+	font-family: Gilroy-extrabold,sans-serif ;
+    font-size: 18px;
+	line-height: 24px;
+	opacity: 1;
+}
+.categories a:hover{
+	font-size: 18px;
+	line-height: 24px;
+	opacity: 0.6;
+}	
+.categories a:active{
+	font-size: 18px;
+	line-height: 24px;
+	opacity: 0.3;
+}	
+.main-header-logo:hover{
+	opacity: 0.6;
+}
+.main-header-logo:active{
+	opacity: 0.3;
 }
 .site-navigation a{
+	font-family: OpenSans-Light;
 	font-size: 15px;
 	line-height: 30px;
 }
 .site-navigation-1 a{
+	font-family: Gilroy-extrabold, sans-serif;
 	font-size: 18px;
 	line-height: 24px;
 }
-.breadcrumbs a{
-	font-size: 14px;
+.footer-logo{
+	opacity: 1;
+}
+.footer-logo:hover{
+	opacity: 0.6;
+}
+.footer-logo:active{
+	opacity: 0.3;
+}
+.footer-navigation{
+	opacity: 0.7;
+}
+.footer-navigation a:hover{
+	opacity: 1;
+}
+.footer-navigation a:active{
+	opacity: 0.3;
+}
+.footer-navigation-1 a{
+	opacity: 1;
+}
+.footer-navigation-1 a:hover{
+	opacity: 0.6;
+}
+.footer-navigation-1 a:active{
+	opacity: 0.3;
+}
+.heading{
+	font-family: Gilroy-extrabold, sans-serif;
+	font-size: 47px;
+	line-height: 56px;
+}
+.description{
+	font-family: OpenSans-Light;
+	font-size: 15px;
+	line-height: 30px;
+}
+.wrapper a{
+	font-size: 18px;
 	line-height: 24px;
 }
-h1
-.visually-hidder {
+.options{
+	font-family: Gilroylight, sans-serif;
+	font-size: 38px;
+	line-height: 48px;
+}
+.designation{
+	font-family: OpenSans-Light;
+	font-size: 13px;
+	line-height: 20px;
+}
+.button-slider button{
+	font-family: Gilroy-extrabold, sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+	border: none;
+}
+.slide h2{
+	font-family: Gilroy-extrabold, sans-serif;
 	font-size: 47px;
 	line-height: 48px;
-	font-weight: 100;
-
 }
-.visually-hidder-1
-
-
-{
-
+.slide p{
+	font-family: OpenSans-Light;
+	font-size: 15px;
+	line-height: 30px;
 }
-
-	
-
-
+.info h3{
+	font-family: Gilroy-extrabold, sans-serif;
+	font-size: 47px;
+	line-height: 48px;
+}
+.info p{
+	font-family: OpenSans-Light;
+	font-size: 15px;
+	line-height: 30px;
+}
+.info li{
+	font-family: Gilroy-extrabold, sans-serif;
+	font-size: 16px;
+	line-height: 40px;
+}
+.info a{
+	font-family: Gilroy-extrabold, sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+}
+.contacts h3{
+	font-family: Gilroyextrabold, sans-serif;
+	font-size: 47px;
+	line-height: 48px;
+}
+.contacts p{
+	font-family: OpenSans-Light;
+	font-size: 15px;
+	line-height: 30px;
+}
+.contacts a{
+	font-family: Gilroy-extrabold, sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+} 
+.footer-navigation a{
+	font-family: OpenSans-Light;
+	font-size: 15px;
+	line-height: 36px;
+}
+.footer-navigation-1 a{
+	font-family: Gilroy-extrabold, sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+}
+.footer-address{
+	font-family: OpenSans-Light;
+	font-size: 15px;
+	line-height: 30px;
+}
+.footer-phone{
+	font-family: OpenSans-Light;
+	font-size: 15px;
+	line-height: 30px;
+}
 
