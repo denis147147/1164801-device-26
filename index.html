@@ -2,45 +2,69 @@
       <html>
 <head>
             <title>device.ru</title>
+            <link rel="stylesheet" type="text/css" href="css/normalize.css">
             <link rel="stylesheet" type="text/css" href="css/untitled.css">
             <meta charset="utf-8"/>
             <style type="text/css"></style>
 </head>
 <body class="inner-page">
   <header class="main-header">
-            <a class="main-header-logo" href="#">
-               <img src="img/logo.svg" width="164" height="36" alt="device">
-            </a>           
-    <div class="site-navigation">
-            <input class="search" type="search" name="q" placeholder="Поиск по сайту"/>
-            <ul class="site-navigation">
-            <li><a href="#">войти</a></li>
-            <li><a href="#">сравнить</a></li>
-            <li><a href="#">корзина</a></li>
-            </ul>
+    <a class="main-header-logo" href="#">
+      <img src="img/logo.svg" width="164" height="36" alt="device">
+    </a>           
+    <div class="main-site-navigation">
+    <input class="search" type="search" name="q" placeholder="Поиск по сайту"/>
+      <ul class="site-navigation">
+        <li><a href="#">войти</a></li>
+        <li><a href="#">сравнить</a></li>
+        <li><a href="#">корзина</a></li>
+      </ul>
     </div>
     <div>      
-            <ul class="site-navigation-1">
-               <li><a href="index1.html">каталог товаров</a></li>
-               <li><a href="#">доставка</a></li>
-               <li><a href="#">гарантия</a></li>
-               <li><a href="#">контакты</a></li>
-            </ul>
+      <ul class="site-navigation-1">
+        <li><a href="index1.html">каталог товаров</a></li>
+        <li><a href="#">доставка</a></li>
+        <li><a href="#">гарантия</a></li>
+        <li><a href="#">контакты</a></li>
+      </ul>
     </div>  
   </header>
-  <main>
-        <section class="wrapper">
-            <div class="slider" id="slide1">
-            <div class="slides slide1">
-            <a href="#"><img src="img/slider-1.svg"></a>
+    <main>
+      <section class="wrapper">
+        <div class="slider">
+        <div class="slides slide1">
+          <a href="#"><img src="img/slider-1.svg" alt="палка для селфи"></a>
+            <h1 class="heading">Делай селфи,<br> как Бен Стиллер!</h1>
+            <p class="description">
+              Самая длинная палка для селфи доступна в нашем магазине.<br>
+              Восемь (Восемь, Карл!) метров длинной и весом всего 5 киллограмм.
+            </p>
+          <a href="#" class="">подробнее</a> 
+        <div>
+          <table>
+            <tr class="options">
+              <td>8,5 м</td>
+              <td>5 кг</td>
+              <td>Карбон</td>
+            </tr>
+            <tr class="designation">
+              <td>Длинна палки</td>
+              <td>Вес палки</td>
+              <td>Материал</td>
+            </tr>
+          </table>
+        </div>
+        </div>
+          <div class="slides slide2" >
+            <a href="#"><img src="img/slider-1.svg" alt="палка для селфи"></a>
               <h1 class="heading">Делай селфи,<br> как Бен Стиллер!</h1>
-                <p class="description">
-                 Самая длинная палка для селфи доступна в нашем магазине.<br>
-                 Восемь (Восемь, Карл!) метров длинной и весом всего 5 киллограмм.
-               </p>
+              <p class="description">
+                Самая длинная палка для селфи доступна в нашем магазине.<br>
+                Восемь (Восемь, Карл!) метров длинной и весом всего 5 киллограмм.
+              </p>
             <a href="#">подробнее</a> 
 
-            <div>
+          <div>
               <table>
                 <tr class="options">
                   <td>8,5 м</td>
@@ -55,32 +79,8 @@
               </table>
             </div>
             </div>
-            <div class="slides slide2" id="slide2">
-            <a href="#"><img src="img/slider-1.svg"></a>
-              <h1 class="heading">Делай селфи,<br> как Бен Стиллер!</h1>
-                <p class="description">
-                 Самая длинная палка для селфи доступна в нашем магазине.<br>
-                 Восемь (Восемь, Карл!) метров длинной и весом всего 5 киллограмм.
-               </p>
-            <a href="#">подробнее</a> 
-
-            <div>
-              <table>
-                <tr class="options">
-                  <td>8,5 м</td>
-                  <td>5 кг</td>
-                  <td>Карбон</td>
-                </tr>
-                <tr class="designation">
-                  <td>Длинна палки</td>
-                  <td>Вес палки</td>
-                  <td>Материал</td>
-                </tr>
-              </table>
-            </div>
-            </div>
-            <div class="slides slide3" id="slide3">
-            <a href="#"><img src="img/slider-1.svg"></a>
+            <div class="slides slide3">
+            <a href="#"><img src="img/slider-1.svg" alt="палка для селфи"></a>
               <h1 class="heading">Делай селфи,<br> как Бен Стиллер!</h1>
                 <p class="description">
                  Самая длинная палка для селфи доступна в нашем магазине.<br>
@@ -148,13 +148,11 @@
             <h3>О нас</h3>
             <p>Огромный выбор гаджетов не оставит равнодушным гика,<br> который есть в каждом из нас.</p>
             <p>Мы можем доставить ваш товар в самые отдаленные точки<br> России! DEVICE работает со многими транспортными компаниями: </p>
-            <form method="get" action="">
             <ul>
                   <li>Деловые Линии</li>
                   <li>Автотрейдинг</li>
                   <li>ЖелДорэкспедиция</li>
             </ul>
-            </form>
             <a href="#">подробние о нас</a>
       </div> 
       <div class="contacts">   
@@ -165,7 +163,7 @@
       </div>
   </main>
   <footer>
-    <a href="#" class="footer-logo"><img src="img/logo-yellow.svg"></a>
+    <a href="#" class="footer-logo"><img src="img/logo-yellow.svg" alt="логотип device"></a>
     <div>
       <ul class="footer-navigation">
         <li><a href="#">войти</a></li>

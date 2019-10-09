@@ -1,10 +1,29 @@
 body{
 	color: #000000;
-	font-family: "PT sans narrow", gilroy, open sans, sans-serif;
+	margin: 0;
 }
 a{
 	text-decoration: none;
 	color: #000000;
+}
+img{
+	max-width: 100%;
+}
+@font-face{
+	font-family: Gilroy-extrabold ;
+	src: url(fonts/gilroy/Gilroyextrabold.ttf);
+}
+@font-face{
+	font-family: Gilroy-light;
+	src: url(fonts/gilroy/Gilroylight.ttf);
+}
+@font-face{
+	font-family: OpenSans-Light;
+	src: url(fonts/open_sans/OpenSans-Light.ttf);
+}
+@font-face{
+	font-family: OpenSans-Regular;
+	src: url(fonts/open_sans/OpenSans-Regular.ttf);
 }
 .main-header-logo:hover{
 	opacity: 0.6;
@@ -13,7 +32,6 @@ a{
 	opacity: 0.3;
 }
 .search{
-
 	border: none;
 	opacity: 0.3;
 }
@@ -41,10 +59,6 @@ a{
 .site-navigation-1 a:active{
 	opacity: 0.3;
 }
-li,
-.user:before{
-	content: ;
-}
 .breadcrumbs a{
 	list-style: none;
 	opacity: 0.3;
@@ -60,58 +74,73 @@ ul,
 .filter{
 	list-style: none;
 }
-.site-navigation a{
+.site-navigation a{ 
+	font-family: OpenSans-Light;
 	font-size: 15px;
 	line-height: 30px;
 }
+.user{
+	opacity: 0.3;	
+}
+.user:hover{
+	opacity: 0.6;
+}	
+.user:active{
+	opacity: 1;
+}	
 .site-navigation-1 a{
+	font-family: Gilroy-extrabold, sans-serif;
 	font-size: 18px;
 	line-height: 24px;
 }
 .breadcrumbs a{
+	font-family: OpenSans-Light;
 	font-size: 14px;
 	line-height: 24px;
 }
-h1
 .visually-hidder{
+	font-family: Gilroy-extrabold, sans-serif;
 	font-size: 47px;
 	line-height: 48px;
 
 }
 .visually-hidder-1{
+	font-family: Gilroy-extrabold, sans-serif;
 	font-size: 16px;
 	line-height: 24px;
 }
 .cost{
+	font-family: Gilroy-extrabold, sans-serif;
 	font-size: 18px;  
 	line-height: 24px;
 }
 .color{
+	font-family: Gilroy-extrabold, sans-serif;
 	font-size: 18px; 
 	line-height: 24px;
 }
 ul,
 .cost{
+	font-family: OpenSans-Light;
 	font-size: 14px; 
 	line-height: 39px;
 }
 .Bluetooth1{
+	font-family: Gilroy-extrabold, sans-serif;
 	font-size: 18px;
 	line-height: 24px;
 }
 ul,
 .Bluetooth{
+	font-family: OpenSans-Light;
 	font-size: 14px; 
 	line-height: 40px;
 }
 .filter-button{
+	font-family: Gilroy-extrabold, sans-serif;
 	font-size: 18px; 
 	line-height: 22px;
 	border: none;
-	height: 8px;
-	width: 200px;
-	background-color: #F0C52E;
-	opacity: 1;	
 } 
 
 .filter-button:hover{
@@ -133,6 +162,9 @@ ul,
 	opacity: 0.3;
 }
 .footer-navigation{
+	font-family: OpenSans-Light;
+	font-size: 15px; 
+	line-height: 36px;
 	opacity: 0.7;
 }
 .footer-navigation a:hover{
@@ -142,6 +174,9 @@ ul,
 	opacity: 0.3;
 }
 .footer-navigation-1 a{
+	font-family: Gilroy-extrabold, sans-serif;
+	font-size: 18px; 
+	line-height: 24px;
 	opacity: 1;
 }
 .footer-navigation-1 a:hover{
@@ -172,6 +207,7 @@ ul,
 	opacity: 1;
 }	
 .pagination-list button{
+	font-family: Gilroy-extrabold, sans-serif;
 	font-size: 16px; 
 	line-height: 24px;
 	border: none;
@@ -200,6 +236,31 @@ ul,
 }
 .filter-button p:active{
     opacity: 0.3;
+}
+.footer-phone{
+	font-family: OpenSans-Light;
+	font-size: 15px;
+	line-height: 30px;
+}
+.footer-address{
+	font-family: OpenSans-Light;
+	font-size: 15px;
+	line-height: 30px;
+}
+.catalog h3{
+	font-family: Gilroy-extrabold, sans-serif;
+	font-size: 18px; 
+	line-height: 24px;
+}
+.pagination-list a{
+	font-family: Gilroy-extrabold, sans-serif;
+	font-size: 16px; 
+	line-height: 24px;
+}
+.catalog p{
+	font-family: OpenSans-Light;
+	font-size: 16px;
+	line-height: 24px;
 }
 	
 	

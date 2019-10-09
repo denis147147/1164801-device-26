@@ -1,6 +1,7 @@
 body{
 	color: #000000;
-
+    margin: 0;
+    padding: 0;
 }
 a{
 	text-decoration: none;
@@ -8,6 +9,9 @@ a{
 }
 ul{
 	list-style: none;
+}
+img{
+	max-width: 100%;
 }
 @font-face{
 	font-family: Gilroy-extrabold ;
@@ -24,6 +28,14 @@ ul{
 @font-face{
 	font-family: OpenSans-Regular;
 	src: url(fonts/open_sans/OpenSans-Regular.ttf);
+}
+header{
+    height: 299px;
+    width: 1160px;
+    background-color: #F0C52E;
+    margin-top: 40px;
+    margin-left: 140px;
+    margin-right: 140px;
 }
 .site-navigation a:hover,
 .site-navigation-1 a:hover{
@@ -119,11 +131,12 @@ opacity: 0.6;
 	line-height: 30px;
 }
 .wrapper a{
+	font-family: Gilroy-extrabold, sans-serif;
 	font-size: 18px;
 	line-height: 24px;
 }
 .options{
-	font-family: Gilroylight, sans-serif;
+	font-family: Gilroy-light;
 	font-size: 38px;
 	line-height: 48px;
 }
@@ -194,7 +207,7 @@ opacity: 0.6;
 	line-height: 24px;
 }
 .footer-address{
-	font-family: OpenSans-Light;
+    font-family: OpenSans-Light;
 	font-size: 15px;
 	line-height: 30px;
 }
@@ -202,5 +215,23 @@ opacity: 0.6;
 	font-family: OpenSans-Light;
 	font-size: 15px;
 	line-height: 30px;
+}
+.main-header-logo{
+	position: absolute;
+	top: 23px;
+	left: 198px;
+}
+.site-navigation{
+	position: absolute;
+	display: flex;
+	top: 92px;
+	left: 767px;
+	width: 500px;
+}
+.site-navigation::before{
+	background-image: url(/Users/ekaterina/Documents/GitHub/1164801-device-26/img/user.svg);
+	width: 13px;
+	height: 12px;
+	display: inline-block; 
 }
 
