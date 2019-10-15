@@ -9,15 +9,15 @@
 </head>
 <body class="inner-page">
   <header class="main-header">
-    <a class="main-header-logo" href="#">
-      <img src="img/logo.svg" width="164" height="36" alt="device">
+    <a class="main-header-logo" href="index.html">
+      <img src="img/logo.svg" width="164" height="36" alt="device" class="product" >
     </a>           
     <div class="main-site-navigation">
-    <input class="search" type="search" name="q" placeholder="Поиск по сайту"/>
       <ul class="site-navigation">
-        <li><a href="#">войти</a></li>
-        <li><a href="#">сравнить</a></li>
-        <li><a href="#">корзина</a></li>
+      	<li><input class="search" type="search" name="q" placeholder="Поиск по сайту"/><button class="site-search" type="submit">Найти</button></li>
+        <li><a href="#"><img src="img/user.svg">Войти</a></li>
+        <li><a href="#"><img src="img/compare.svg">Сравнить</a></li>
+        <li><a href="#"><img src="img/cart.svg">Корзина</a></li>
       </ul>
     </div>
     <div>      
@@ -33,15 +33,16 @@
       <section class="wrapper">
         <div class="slider">
         <div class="slides slide1">
-          <a href="#"><img src="img/slider-1.svg" alt="палка для селфи"></a>
-            <h1 class="heading">Делай селфи,<br> как Бен Стиллер!</h1>
-            <p class="description">
+          <a href="#"><img src="img/slider-1.svg" alt="палка для селфи" width="384" height="486"></a>
+            <p class="number1">01</p>
+            <h1 class="heading1">Делай селфи,<br> как Бен Стиллер!</h1>
+            <p class="description1">
               Самая длинная палка для селфи доступна в нашем магазине.<br>
               Восемь (Восемь, Карл!) метров длинной и весом всего 5 киллограмм.
             </p>
-          <a href="#" class="">подробнее</a> 
+          <a href="#" class="details">подробнее</a> 
         <div>
-          <table>
+          <table class="table">
             <tr class="options">
               <td>8,5 м</td>
               <td>5 кг</td>
@@ -57,15 +58,16 @@
         </div>
           <div class="slides slide2" >
             <a href="#"><img src="img/slider-1.svg" alt="палка для селфи"></a>
-              <h1 class="heading">Делай селфи,<br> как Бен Стиллер!</h1>
-              <p class="description">
+              <p class="number2">02</p>
+              <h1 class="heading2">Делай селфи,<br> как Бен Стиллер!</h1>
+              <p class="description2">
                 Самая длинная палка для селфи доступна в нашем магазине.<br>
                 Восемь (Восемь, Карл!) метров длинной и весом всего 5 киллограмм.
               </p>
-            <a href="#">подробнее</a> 
+            <a href="#" class="details">подробнее</a> 
 
           <div>
-              <table>
+              <table class="table">
                 <tr class="options">
                   <td>8,5 м</td>
                   <td>5 кг</td>
@@ -81,15 +83,16 @@
             </div>
             <div class="slides slide3">
             <a href="#"><img src="img/slider-1.svg" alt="палка для селфи"></a>
-              <h1 class="heading">Делай селфи,<br> как Бен Стиллер!</h1>
-                <p class="description">
+              <p class="number3">03</p>
+              <h1 class="heading3">Делай селфи,<br> как Бен Стиллер!</h1>
+                <p class="description3">
                  Самая длинная палка для селфи доступна в нашем магазине.<br>
                  Восемь (Восемь, Карл!) метров длинной и весом всего 5 киллограмм.
                </p>
-            <a href="#">подробнее</a> 
+            <a href="#" class="details">подробнее</a> 
 
             <div>
-              <table>
+              <table class="table">
                 <tr class="options">
                   <td>8,5 м</td>
                   <td>5 кг</td>
@@ -116,13 +119,21 @@
         </div>
     </section>
     <section>
+          <ul class="popular">
+            <li><a href="#"><img src="img/popular-1.svg" class="popular1"></a></li>
+            <li><a href="#"><img src="img/popular-2.svg" class="popular2"></a></li> 
+            <li><a href="#"><img src="img/popular-3.svg" class="popular3"></a></li> 
+            <li><a href="#"><img src="img/popular-4.svg" class="popular4"></a></li> 
+            <li><a href="#"><img src="img/popular-5.svg" class="popular5"></a></li> 
+            <li><a href="#"><img src="img/poppular-6.svg" class="popular6"></a></li>         
+          </ul>
           <ul class="categories">
-            <li><a href="#">Виртуальная<br>реальность</a></li>
-            <li><a href="#">Моноподы<br>для селфи</a></li>
-            <li><a href="#">Экшн камеры</a></li>
-            <li><a href="#">Фитнес-браслеты</a></li>
-            <li><a href="#">Умные часы</a></li>
-            <li><a href="#">Квадракоптеры</a></li>
+            <li><a href="#" class="categories1">Виртуальная<br>реальность</a></li>
+            <li><a href="#" class="categories2">Моноподы<br>для селфи</a></li>
+            <li><a href="#" class="categories3">Экшн камеры</a></li>
+            <li><a href="#" class="categories4">Фитнес-браслеты</a></li>
+            <li><a href="#" class="categories5">Умные часы</a></li>
+            <li><a href="#" class="categories6">Квадракоптеры</a></li>
           </ul> 
     </section>    
     <section class="slider">
@@ -131,19 +142,33 @@
               <button>гарантия</button>
               <button>кредит</button>
             </div>
-            <div class="slide">
+            <div class="slides">
               <h2>Доставка</h2>
               <p>Мы с удовольствием доставим ваш товар прямо к вашему<br> подъезду совершенно бесплатно! Ведь мы неплохо<br> заработаем, поднимая его на ваш этаж.</p>    
             </div>
-            <div class="slide">
+            <div class="slides">
               <h2>Доставка</h2>
               <p>Мы с удовольствием доставим ваш товар прямо к вашему<br> подъезду совершенно бесплатно! Ведь мы неплохо<br> заработаем, поднимая его на ваш этаж.</p>    
             </div>
-            <div class="slide">
+            <div class="slides">
               <h2>Доставка</h2>
               <p>Мы с удовольствием доставим ваш товар прямо к вашему<br> подъезду совершенно бесплатно! Ведь мы неплохо<br> заработаем, поднимая его на ваш этаж.</p>    
             </div>
     </section>
+    <div>
+      <ul class="peace-logo">
+        <li><a href="#"><img src="img/logo-1.svg" class="peace-logo1"></a></li>
+        <li><a href="#"><img src="img/logo-3.svg" class="peace-logo2"></a></li>
+        <li><a href="#"><img src="img/logo-2.svg" class="peace-logo3"></a></li>
+        <li><a href="#"><img src="img/logo-4.svg" class="peace-logo4"></a></li>
+      <!--</ul>
+      <ul class="hover-logo">
+        <li><a href="#"><img src="img/logo-1 copy.svg" class="hover-logo1"></a></li>
+        <li><a href="#"><img src="img/logo-3 copy.svg" class="hover-logo2"></a></li>
+        <li><a href="#"><img src="img/logo-2 copy.svg" class="hover-logo3"></a></li>
+        <li><a href="#"><img src="img/logo-4 copy.svg" class="hover-logo4"></a></li>
+      </ul>-->
+    </div>
       <div class="info">    
             <h3>О нас</h3>
             <p>Огромный выбор гаджетов не оставит равнодушным гика,<br> который есть в каждом из нас.</p>
