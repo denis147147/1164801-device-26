@@ -33,7 +33,7 @@ footer {
 	height: 323px;
     width: 1440px;
     background-color: #464646;
-    margin: 0 auto;
+    
 	
 }
 
@@ -98,26 +98,24 @@ opacity: 0.6;
 }
 
 .site-navigation a {
-	font-family: OpenSans-Light;
+	font-family: OpenSans-Light, Arial,sans-serif ;
 	font-size: 15px;
 	line-height: 30px;
 }
 
 .site-navigation-1 a {
-	font-family: Gilroy-extrabold, sans-serif;
+	font-family: Gilroy-extrabold,Arial, sans-serif;
 	font-size: 18px;
 	line-height: 24px;
 }
 
-.footer-logo {
-	opacity: 1;
-}
 
-.footer-logo:hover {
+
+.footer-logo a:hover {
 	opacity: 0.6;
 }
 
-.footer-logo:active {
+.footer-logo a:active {
 	opacity: 0.3;
 }
 
@@ -137,11 +135,11 @@ opacity: 0.6;
 	opacity: 1;
 }
 
-.footer-navigation-1 a:hover {
+.footer-navigation-1 li:hover {
 	opacity: 0.6;
 }
 
-.footer-navigation-1 a:active {
+.footer-navigation-1 li:active {
 	opacity: 0.3;
 }
 
@@ -152,25 +150,25 @@ opacity: 0.6;
 }
 
 .description1,.description2,.description3 {
-	font-family: OpenSans-Light;
+	font-family: OpenSans-Light, Arial, sans-serif;
 	font-size: 15px;
 	line-height: 30px;
 }
 
 .wrapper a {
-	font-family: Gilroy-extrabold, sans-serif;
+	font-family: Gilroy-extrabold,Arial, sans-serif;
 	font-size: 18px;
 	line-height: 24px;
 }
 
 .options {
-	font-family: Gilroy-light;
+	font-family: Gilroy-light,Arial,sans-serif;
 	font-size: 38px;
 	line-height: 48px;
 }
 
 .designation {
-	font-family: OpenSans-Light;
+	font-family: OpenSans-Light, Arial, sans-serif;
 	font-size: 13px;
 	line-height: 20px;
 }
@@ -196,67 +194,67 @@ opacity: 0.6;
 }
 
 .info h3 {
-	font-family: Gilroy-extrabold, sans-serif;
+	font-family: Gilroy-extrabold, Arial, sans-serif;
 	font-size: 47px;
 	line-height: 48px;
 }
 
 .info p {
-	font-family: OpenSans-Light;
+	font-family: OpenSans-Light, Arial, sans-serif;
 	font-size: 15px;
 	line-height: 30px;
 }
 
 .info li {
-	font-family: Gilroy-extrabold, sans-serif;
+	font-family: Gilroy-extrabold, Arial, sans-serif;
 	font-size: 16px;
 	line-height: 40px;
 }
 
 .info a {
-	font-family: Gilroy-extrabold, sans-serif;
+	font-family: Gilroy-extrabold, Arial, sans-serif;
 	font-size: 18px;
 	line-height: 24px;
 }
 
 .contacts h3 {
-	font-family: Gilroyextrabold, sans-serif;
+	font-family: Gilroyextrabold, Arial, sans-serif;
 	font-size: 47px;
 	line-height: 48px;
 }
 
 .contacts p {
-	font-family: OpenSans-Light;
+	font-family: OpenSans-Light, Arial, sans-serif;
 	font-size: 15px;
 	line-height: 30px;
 }
 
 .contacts a {
-	font-family: Gilroy-extrabold, sans-serif;
+	font-family: Gilroy-extrabold, Arial, sans-serif;
 	font-size: 18px;
 	line-height: 24px;
 }
 
 .footer-navigation a {
-	font-family: OpenSans-Light;
+	font-family: OpenSans-Light, Arial, sans-serif;
 	font-size: 15px;
 	line-height: 36px;
 }
 
 .footer-navigation-1 a {
-	font-family: Gilroy-extrabold, sans-serif;
+	font-family: Gilroy-extrabold, Arial, sans-serif;
 	font-size: 18px;
 	line-height: 24px;
 }
 
 .footer-address {
-    font-family: OpenSans-Light;
+    font-family: OpenSans-Light, Arial, sans-serif;
 	font-size: 15px;
 	line-height: 30px;
 }
 
 .footer-phone {
-	font-family: OpenSans-Light;
+	font-family: OpenSans-Light, Arial, sans-serif;
 	font-size: 15px;
 	line-height: 30px;
 }
@@ -281,13 +279,13 @@ opacity: 0.6;
 	opacity: 1;
 }
 
-.site-navigation a:hover,
-.site-navigation-1 a:hover {
+.site-navigation li:hover,
+.site-navigation-1 li:hover {
 	opacity: 0.6;
 }
 
-.site-navigation a:active,
-.site-navigation-1 a:active {
+.site-navigation li:active,
+.site-navigation-1 li:active {
 	opacity: 0.3;
 }
 
@@ -310,7 +308,7 @@ ul,
 }
 
 .site-navigation a { 
-	font-family: OpenSans-Light;
+	font-family: OpenSans-Light,Arial,sans-serif;
 	font-size: 15px;
 	line-height: 30px;
 }
@@ -328,64 +326,64 @@ ul,
 }
 
 .site-navigation-1 a {
-	font-family: Gilroy-extrabold, sans-serif;
+	font-family: Gilroy-extrabold,Arial, sans-serif;
 	font-size: 18px;
 	line-height: 24px;
 	letter-spacing: 3.6px;
 }
 
 .breadcrumbs a {
-	font-family: OpenSans-Light;
+	font-family: OpenSans-Light,Arial,sans-serif;
 	font-size: 14px;
 	line-height: 24px;
 }
 
 .visually-hidder {
-	font-family: Gilroy-extrabold, sans-serif;
+	font-family: Gilroy-extrabold,Arial, sans-serif;
 	font-size: 47px;
 	line-height: 48px;
 }
 
 .visually-hidder-1 {
-	font-family: Gilroy-extrabold, sans-serif;
+	font-family: Gilroy-extrabold,Arial, sans-serif;
 	font-size: 16px;
 	line-height: 24px;
 }
 
 .cost {
-	font-family: Gilroy-extrabold, sans-serif;
+	font-family: Gilroy-extrabold,Arial, sans-serif;
 	font-size: 18px;  
 	line-height: 24px;
 }
 
 .color {
-	font-family: Gilroy-extrabold, sans-serif;
+	font-family: Gilroy-extrabold,Arial, sans-serif;
 	font-size: 18px; 
 	line-height: 24px;
 }
 
 ul,
 .cost {
-	font-family: OpenSans-Light;
+	font-family: OpenSans-Light,Arial,sans-serif;
 	font-size: 14px; 
 	line-height: 39px;
 }
 
 .Bluetooth1 {
-	font-family: Gilroy-extrabold, sans-serif;
+	font-family: Gilroy-extrabold,Arial,sans-serif;
 	font-size: 18px;
 	line-height: 24px;
 }
 
 ul,
 .Bluetooth {
-	font-family: OpenSans-Light;
+	font-family: OpenSans-Light,Arial,sans-serif;
 	font-size: 14px; 
 	line-height: 40px;
 }
 
 .filter-button {
-	font-family: Gilroy-extrabold, sans-serif;
+	font-family: Gilroy-extrabold,Arial, sans-serif;
 	font-size: 18px; 
 	line-height: 22px;
 	border: none;
@@ -401,45 +399,35 @@ ul,
 	opacity: 0.3;
 }
 
-.footer-logo {
-	opacity: 1;
-}
-
-.footer-logo:hover {
-	opacity: 0.6;
-}
-
-.footer-logo:active {
-	opacity: 0.3;
-}
-
-.footer-navigation {
-	font-family: OpenSans-Light;
+.footer-navigation a {
+	font-family: OpenSans-Light, Arial,sans-serif;
 	font-size: 15px; 
 	line-height: 36px;
 	opacity: 0.7;
+	color: #ffffff;
 }
 
-.footer-navigation a:hover {
+.footer-navigation li:hover {
 	opacity: 1;
 }
 
-.footer-navigation a:active {
+.footer-navigation li:active {
 	opacity: 0.3;
 }
 
 .footer-navigation-1 a {
-	font-family: Gilroy-extrabold, sans-serif;
+	font-family: Gilroy-extrabold, Arial, sans-serif;
 	font-size: 18px; 
 	line-height: 24px;
 	opacity: 1;
+	color: #ffffff;
 }
 
-.footer-navigation-1 a:hover {
+.footer-navigation-1 li:hover {
 	opacity: 0.6;
 }
 
-.footer-navigation-1 a:active {
+.footer-navigation-1 li:active {
 	opacity: 0.3;
 }
 
@@ -482,31 +470,33 @@ ul,
 }
 
 .footer-phone {
-	font-family: OpenSans-Light;
+	font-family: OpenSans-Light, Arial, sans-serif;
 	font-size: 15px;
 	line-height: 30px;
+	color: #ffffff;
 }
 
 .footer-address {
-	font-family: OpenSans-Light;
+	font-family: OpenSans-Light, Arial,sans-serif;
 	font-size: 15px;
 	line-height: 30px;
+	color: #ffffff;
 }
 
 .catalog h3 {
-	font-family: Gilroy-extrabold, sans-serif;
+	font-family: Gilroy-extrabold, Arial, sans-serif;
 	font-size: 18px; 
 	line-height: 24px;
 }
 
 .pagination-list a {
-	font-family: Gilroy-extrabold, sans-serif;
+	font-family: Gilroy-extrabold, Arial, sans-serif;
 	font-size: 16px; 
 	line-height: 24px;
 }
 
 .catalog p {
-	font-family: OpenSans-Light;
+	font-family: OpenSans-Light, Arial, sans-serif;
 	font-size: 16px;
 	line-height: 24px;
 }
@@ -515,8 +505,6 @@ ul,
 
 .categories {
 	display: flex;
-	align-items: flex-start;
-	width: 1160px;
 	margin: 0 auto;
 	padding-top: 33px;
 }
@@ -528,7 +516,7 @@ ul,
 
 }
 
-.popular {
+.popular-goods {
 	display: flex;
 	width: 1160px;
 	margin: 0 auto;
@@ -536,7 +524,7 @@ ul,
 	padding-top: 106px;
 }
 
-.popular li {
+.popular-goods li {
     width: 160px;
     height: 160px;
     background-color: rgba(240, 197, 46, 0.5);
@@ -581,11 +569,11 @@ ul,
 	padding-right: 13px;
 }
 
-.popular li:hover {
+.popular-goods li:hover {
 	background-color: #F0C52E;
 }
 
-.popular img:active {
+.popular-goods img:active {
 	opacity: 0.3;
 }
 
@@ -611,11 +599,6 @@ ul,
 
 .peace-logo4:hover {
 	background: url("../img/logo-4 copy.svg");
-}
-
-.categories {
-    display: flex;
-    justify-content: flex-start;
 }
 
 /*главный слайдер*/
@@ -658,7 +641,7 @@ ul,
     padding-right: 60px;
 }
 
-.number1 {
+.number1, .number2, .number3 {
 	position: absolute;
 	margin-top: -125px;
 	margin-left: 440px; 
@@ -727,6 +710,11 @@ ul,
 	justify-content: flex-end;
 	padding-right: 60px;
 	padding-top: 50px;
+}
+
+.user {
+	margin-left: 20px;
+	opacity: 0.3;
 }
 
 .search {
@@ -824,12 +812,12 @@ ul,
 	padding-bottom: 90px;
 	width: 1160px;
 	margin: 0 auto;
+
 }
 
 .info {
 	display: flex;
 	flex-direction: column;
-	width: 1160px;
 	justify-content: flex-start;
 }
 
@@ -837,14 +825,12 @@ ul,
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-    width: 1160px;
-
+	padding-left: 140px;
 }
 
-.companies {
-	padding: 
+.companies { 
 	width: 477px;
-	height: 204px
+	height: auto;
 }
 
 /* 2й слайдер;*/
@@ -903,54 +889,21 @@ ul,
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;
-	height: 319px;
+	height: auto;
 	width: 456px;
 	border-left: 8px solid;
-	padding-left: 114px;
-	margin-top: -103px;	
 }
 
-/* подвал */
+/* footer */
 
-.footer-logo:hover {
-    opacity: 0.6;
-}
-
-.footer-logo:active {
-	opacity: 0.3;
-}
-
-.footer-navigation {
-	display: flex;
-	justify-content: flex-end;
-	padding-top: 59px;
-	width: 1160px;
-    margin: 0 auto;
-}
-
-.footer-navigation li:first-child {
-	justify-content: flex-start;
-}
-
-.footer-navigation-1 {
-	display: flex;
-	justify-content: space-between;
-	width: 440px;
-    margin: 0 auto;
-}
-
-.footer-navigation li:nth-child(2):before {
+.footer-navigation li:first-child:before {
 	content: url("../img/user-yellow.svg");
 	padding-right: 16px;
 }
 
-.footer-navigation li:nth-child(3):before {
+.footer-navigation li:nth-child(2):before {
 	content: url("../img/compare-yellow.svg");
 	padding-right: 16px;
-}
-
-.footer-navigation li:nth-child(3){
-	margin-left: 65px;
 }
 
 .footer-navigation li:last-child:before {
@@ -958,42 +911,85 @@ ul,
 	padding-right: 16px;
 }
 
-.footer-navigation li:last-child {
-	margin-left: 65px;
+.footer-logo img:hover {
+	opacity: 0.6;
 }
 
+.footer-logo img:active {
+	opacity: 0.3;
+}
 
+.footer-navigation {
+	display: flex;
+	width: 1160px;
+	padding-top: 60px;
+	margin: 0 auto;
+}
+
+.footer-navigation ul {
+    display: flex;
+    margin-left: auto;
+}
+
+.footer-navigation li:not(:first-child){
+	margin-left: 65px;    
+}
+
+.footer-user {
+	margin-left: 20px;
+	opacity: 1;
+}
 
 .address {
 	display: flex;
 	width: 1160px;
+	margin: 0 auto;
 	justify-content: space-between;
-	margin: auto;
 }
 
-.footer-phone {
-	
-}
-
-.footer-address {
-    
-}
-
-.social-icons {
+.footer-navigation-1 ul {
 	display: flex;
-    width: 1160px;
-    margin: 0 auto;
+	width: 1160px;
+	margin:0 auto;
+	justify-content: center;
+	margin-top: -45px;	
 }
 
-.social-icons li:last-child {
-	align-self: flex-end;
-	margin: auto;
+.footer-navigation-1 li:not(:first-child) {
+	margin-left: 46px;
 }
 
-.social-icons li:first-child:nth-child(2):nth-child(3) {
-	align-self: center;
-	margin: auto;
+
+.social-icons ul {
+	display: flex;
+	width: 1160px;
+	margin: 0 auto;
+	justify-content: center;
+	padding-top: 65px;
+	opacity: 0.3;
+
 }
+
+.social-icons li:not(:first-child) {
+	margin-left: 23px;
+}
+
+.academy-logo {
+	display: flex;
+	width: 1160px;
+	margin: 0 auto;
+    justify-content: flex-end;
+    margin-top: -45px;
+}
+
+.social-icons li:hover {
+    opacity: 0.9;
+}
+
+.social-icons li:active {
+    opacity: 0.1;
+}
+
 
 
   
