@@ -38,11 +38,10 @@
             <li><a href="#">Моноподы для селфи</a></li>
         </ul>
         <section class="filter">
-            <h2 class="visually-hidder-1">Фильтр:</h2>
+            <h2 class="visually-hidder-1">ФИЛЬТР:</h2>
             <form class="filter" method="get" action="https://echo.htmlacademy.ru">
-            <fieldset>
-              <ul class="filter">    
-                  <li class="cost"><label class="cost">Стоимость</label></li>
+              <ul class="filter-color">    
+                  <li><label class="cost">Стоимость</label></li>
                   <li><input type="range" min="0" max="10000" step="10" value="0" name="cost"></li>
                   <li><legend class="color">Цвет</legend></li>
                   <li><input type="checkbox" id="black" name="black" value="on"><label for="black">Церный</label></li>
@@ -51,28 +50,24 @@
                   <li><input type="checkbox" id="red" name="red" value="on"><label for="red">Красный</label></li>
                   <li><input type="checkbox" id="pink" name="pink" value="on"><label for="pink">Розовый</label></li>
               </ul>
-            </fieldset>
-            <fieldset>
               <ul class="Bluetooth">    
-                  <li><h2>Bluetooth</h2></li>
+                  <li>Bluetooth</li>
                   <li><input type="radio" id="Bluetooth1" value="on" name="product"><label for="Bluetooth1">Есть</label></li>
                   <li><input type="radio" id="Bluetooth2" value="on" name="product"><label for="Bluetooth2">Нет</label></li>
               </ul>
-            </fieldset>
             <p> 
             <button class="filter-button"><p class="show">показать</p></button>   
             </p>  
-            
              </form>
-             <div>
-               <h3>сортировка:</h3>
-               <span class="filtr-categories">
+        </section>
+        <div class="sorting">
+               <h3>СОРТИРОВКА:</h3>
+               <span class="filter-categories">
                    <button>По цене</button>
                    <button>По типу</button>
                    <button>По популярности</button>
                </span>  
              </div>
-        </section>
         <section class="catalog">
             <div>
             <a href="#"><img src="img/item-1.png" width="360" height="380" alt="Любительская селфи-палка"></a>
@@ -140,7 +135,7 @@
         </ul>
     </div>
     <div class="academy-logo">
-    <a href=""><img src="img/logo-html.svg"></a>
+    <a href="#"><img src="img/logo-html.svg"></a>
     </div>
   </footer>            
 </body>
